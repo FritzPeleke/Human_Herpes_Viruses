@@ -12,9 +12,14 @@ from collections import Counter
 from time import time
 import seaborn as sns
 pd.options.display.width = 0
-np.random.seed(seed=42)
-tf.set_random_seed(seed=42)
 
+def reset_graph():
+    tf.reset_default_graph()
+    np.random.seed(seed=42)
+    tf.set_random_seed(seed=42)
+
+
+reset_graph()
 #The 64 carnonical codons which code for amino acids
 carnonical_codons= ['TTT', 'TTC', 'TTA', 'TTG', 'CTT', 'CTC', 'CTA', 'CTG', 'ATT', 'ATC',
                     'ATA', 'ATG', 'GTT', 'GTC', 'GTA', 'GTG', 'TCT', 'TCC', 'TCA', 'TCG',
