@@ -13,3 +13,5 @@ It has been noticed that scripts perfrom slightly differently on different opera
 * All data.zip contains all the datasets used for the project. It contains datasets before and after preprocessing.
 ## operating system
 This project was performed on a windows 10 operating system. Scripts have however been seen to perform differently on mac operating system.
+## Datasets
+The first set of FASTA sequences found in Data folder was downloaded on 07.01.2020. The second set found in Data 2, were downloaded on 28.01.2020.
